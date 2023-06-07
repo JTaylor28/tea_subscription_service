@@ -5,7 +5,7 @@ RSpec.describe Subscription, type: :model do
     it { should belong_to :customer }
     it { should belong_to :tea }
   end
-
+  
   describe "Methods" do
     before :each do
       @customer = Customer.create!(first_name: "Bob", last_name: "Gu", email: "bob@bobmail.com", address: "123 Bob St. Bob, CO 80302").id
