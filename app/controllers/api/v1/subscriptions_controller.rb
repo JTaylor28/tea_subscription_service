@@ -6,7 +6,7 @@ class Api::V1::SubscriptionsController < ApplicationController
   end
   
   def create
-    subscription = Subscription.make_sub(subscription_params[:customer_id], subscription_params[:tea_id], subscription_params[:frequency])
+    subscription = Subscription.make_sub(params[:customer_id], subscription_params[:tea_id], subscription_params[:frequency])
     render json: SubscriptionSerializer.new(subscription)
   end
 
@@ -19,6 +19,6 @@ class Api::V1::SubscriptionsController < ApplicationController
   private
 
   def subscription_params
-    params.require(:subscription).permit(:customer_id, :tea_id, :frequency)
+    params.require(:subscription).permit(:tea_id, :frequency)
   end
 end
