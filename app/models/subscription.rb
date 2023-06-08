@@ -10,7 +10,6 @@ class Subscription < ApplicationRecord
 
   private
   def self.get_params(customer_id, tea_id, frequency)
-
     tea_object = Tea.find(tea_id)
     price = tea_object.price
     title = "#{tea_object.title} Subscription"
