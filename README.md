@@ -7,9 +7,9 @@ The Tea Subscription app is an API that allows users to create various tea subsc
 
 ## Built With:
 
-[![Ruby]][Ruby-url] **3.1.1**
-[![Rails]][Rails-url] **7.0.4**
-[![Postgresql]][Postgresql-url] **1.1**
+[[![Ruby]][Ruby-url]](https://img.shields.io/badge/Ruby-CC342D.svg?style=for-the-badge&logo=Ruby&logoColor=white) **3.1.1**
+[[![Rails]][Rails-url]](https://img.shields.io/badge/Ruby%20on%20Rails-CC0000.svg?style=for-the-badge&logo=Ruby-on-Rails&logoColor=white) **7.0.4**
+[[![Postgresql]][Postgresql-url]](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white) **1.1**
 
 ### Testing:
 
