@@ -5,11 +5,12 @@ class Subscription < ApplicationRecord
   enum status: {active: 0, canceled: 1}
 
   def self.make_sub(customer_id, tea_id, frequency)
-    Subscription.create(find_params(customer_id, tea_id, frequency))
+    Subscription.create(get_params(customer_id, tea_id, frequency))
   end
 
   private
-  def self.find_params(customer_id, tea_id, frequency)
+  def self.get_params(customer_id, tea_id, frequency)
+
     tea_object = Tea.find(tea_id)
     price = tea_object.price
     title = "#{tea_object.title} Subscription"

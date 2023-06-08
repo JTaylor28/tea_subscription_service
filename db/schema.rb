@@ -44,7 +44,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_07_164555) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "price"
-
   end
 
   add_foreign_key "subscriptions", "customers"
