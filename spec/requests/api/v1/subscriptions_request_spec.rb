@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe "subscriptions", type: :request do
-  describe "POST /api/v1/subscriptions" do
+  describe "POST /api/v1/customers/customer_id/subscriptions" do
     it " creates a new subscription when given valid paramaters" do
       customer = Customer.create(first_name: "Bob", last_name: "Jones" , email: "bob@bobmail.com", address: "123 Bob St. Bob, CO 80302").id
       tea = Tea.create(title: "Green Tea", description: "Green Tea is green", temperature: 180, brew_time: 3, price: 10).id
