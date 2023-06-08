@@ -5,9 +5,16 @@ The Tea Subscription app is an API that allows users to create various tea subsc
 <br>
 <br>
 
-## Versions
-- Ruby 3.1.1
-- Rails 7.0.5
+## Built With:
+
+[![Ruby]][Ruby-url] **3.1.1**
+[![Rails]][Rails-url] **7.0.4**
+[![Postgresql]][Postgresql-url] **1.1**
+
+### Testing:
+
+[![RSpec]][RSpec-url]
+[![SimpleCov]][SimpleCov-url]
 
 ## Setup
 
