@@ -137,6 +137,11 @@ body:
     }
 }
 ```
+<br>
+<br>
+<br>
+</details>
+
 <details>
 <summary> PATCH /api/v1/customers/1/subscriptions/1 </summary>
 <br>
