@@ -124,7 +124,6 @@ Accept: application/json
 
 ```json
 {
-    "customer_id": "2",
     "tea_id": "1",
     "frequency": "weekly" 
 }
