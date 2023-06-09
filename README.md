@@ -45,7 +45,7 @@ rails db:{drop,create,migrate,seed}
 <br>
 
 ## Schema
-
+![Screenshot 2023-06-09 at 10 30 36 AM](https://github.com/JTaylor28/tea_subscription_service/assets/117054959/946eb01f-320f-4e1e-89a8-3acd6f65fc8b)
 <br>
 
 
