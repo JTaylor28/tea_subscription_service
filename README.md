@@ -1,7 +1,10 @@
 # TEA Subscription Service
 
 ## Summary
+<center>
 The Tea Subscription app is an API that allows users to create various tea subscriptions. Customers can choose their preferred teas, set the frequency of their deliveries, and change their subscription status. The app provides endpoints for subscribing, canceling, and viewing subscriptions.
+</center>
+<br>
 <br>
 ![Screenshot 2023-06-09 at 10 38 31 AM](https://github.com/JTaylor28/tea_subscription_service/assets/117054959/8ecbfb39-d242-43e7-872f-6d574c2264e6)
 <br>
